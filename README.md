@@ -1,29 +1,14 @@
 Traccia:
 
-Ripercorriamo gli steps fatti a lezione ed iniziamo un nuovo progetto usando i comandi visti insieme a lezione.
+Continuiamo a lavorare sul codice dei giorni scorsi, ma in una nuova repo, rendendo quindi laravel many-to-many una repository template e proseguendo a partire da essa...
+L’esercizio di oggi è suddiviso in milestone ed è importante che ne seguiate l’ordine.
 
-Iniziamo con il definire il layout, modello, migrazione, controller e rotte necessarie per il sistema portfolio:
+Milestone 1
+Aggiungiamo al nostro progetto Laravel un nuovo Api/ProjectController.
+Questo controller risponderà a delle richieste via API e si occuperà di restituire la lista dei progetti presenti nel database in formato json.
 
-1.  Autenticazione: si parte con l'autenticazione e la creazione di un layout per back-office
-2.  Creazione del modello Project con relativa migrazione, seeder, controller e rotte
-3.  Per la parte di back-office creiamo un resource controller Admin\ProjectController per gestire tutte le operazioni CRUD dei progetti
+Milestone 2
+Testiamo la chiamata API tramite Postman e assicuriamoci di ricevere i dati correttamente.
 
-Implementiamo le funzionalita' di index(), show(), create(), store() per il modello Project.
-
-Bonus
-
-Implementiamo la validazione dei dati dei Progetti nelle operazioni CRUD che lo richiedono usando una form request.
-
-Ripercorriamo gli steps fatti a lezione ed implementiamo per la risorsa project
-
-    edit()
-    update()
-    delete()
-
-E relative validazioni!
-
-Bonus
-
-    Una request personalizzata per la validazione dei dati
-    Aggiungiamo le modali di conferma
-    Aggiungiamo una nuova risorsa con le relative CRUD
+Bonus:
+Gestire la paginazione dei risultatiBuon lavoro e buon divertimento!
